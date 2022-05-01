@@ -9,6 +9,8 @@ router.get('/', async (req, res) => {
         res.json(persons);
     } catch (error) { res.send("GET Error : " + error) };
 });
+
+
 // Added path for one person to get request by their id..
 router.get('/:id', async (req, res) => {
     try {
@@ -18,6 +20,7 @@ router.get('/:id', async (req, res) => {
         res.json(person);
     } catch (error) { res.send("Please recheck your url its not matching with any id.") };
 });
+
 
 // For updating particular value from patch.
 router.patch('/:id', async (req, res) => {
