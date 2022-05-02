@@ -1,4 +1,4 @@
-# CRUD App
+# CRUD APP
 
 
 CRUD App with the help of Express JS and MongoDB.  
@@ -7,7 +7,7 @@ These functions can be modeled in different ways but they are designed to perfor
 
 
 Working of this project ()=>{
-------------------------
+-----------------------------
 
 *   To run this project please download these files in your system.
 *   Please hit "npm install" in terminal where these files located.
@@ -19,6 +19,6 @@ Working of this project ()=>{
     { "name": "vanshul", "programming_language": "Python", "age": 23, "have_job": true }.
 *   PATCH : http://localhost:9000/persons/id_number_here | Please send json parameters any of this schema ()=>
     { "name": "vanshul", "programming_language": "Python", "age": 23, "have_job": true }.
-*   DELETE : http://localhost:9000/persons/id_number_here | It will delete a particular id person.
+*   DELETE : http://localhost:9000/persons/id_number_here | It will delete a particular id of a person.
 
 }
