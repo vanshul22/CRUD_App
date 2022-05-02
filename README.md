@@ -2,7 +2,7 @@
 
 
 CRUD App with the help of Express JS and MongoDB.  
-Its a APIs are how your application informs your database of what functions to perform. 
+Its a APIs app will tell how your application informs your database of what functions to perform. 
 These functions can be modeled in different ways but they are designed to perform four basic CRUD operations; Create, Read, Update, Delete.
 
 
