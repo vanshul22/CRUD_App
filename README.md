@@ -10,8 +10,9 @@ Working of this project ()=>{
 -----------------------------
 
 *   To run this project please download these files in your system.
-*   Please hit "npm install" in terminal where these files located.
+*   Please hit "npm install" in terminal where these files located to install all required packages.
 *   Make Sure Mongodb server running in background.
+*   Please hit "node app.js" in terminal to run the express server and connect database with server.
 *   To hit requests you have to hit "http://localhost:9000/persons".
 
 *   GET : http://localhost:9000/persons
